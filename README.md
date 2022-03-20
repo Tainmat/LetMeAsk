@@ -1,6 +1,6 @@
-<p align="center">
-  <img alt="Letmeask" src=".github/logo.svg" width="160px">
-</p>
+<h1 align="center">
+    <img alt="Letmeask" src=".github/cover.svg" />
+</h1>
 
 
 Aplicação desenvolvida no NLW 5
