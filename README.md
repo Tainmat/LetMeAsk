@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="src/assets/images/logo.svg" src=".github/cover.svg" />
+    Let Me Ask
 </h1>
 
 <br>
