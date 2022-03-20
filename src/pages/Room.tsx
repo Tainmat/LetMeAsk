@@ -16,11 +16,17 @@ type RoomParams = {
 };
 
 export function Room() {
-  const { user } = useAuth();
+  const { user, signInWithGoogle } = useAuth();
   const params = useParams<RoomParams>();
   const roomId = typeof params.id === "string" ? params.id : "";
   const [newQuestion, setNewQuestion] = useState("");
   const { questions, title } = useRoom(roomId);
+
+  async function handleCreateRoom() {
+    if (!user) {
+      await signInWithGoogle();
+    }
+  }
 
   async function handleSendQuestion(event: FormEvent) {
     event.preventDefault();
@@ -95,7 +101,8 @@ export function Room() {
               </div>
             ) : (
               <span>
-                Para enviar uma perguntas, <button>faça seu login</button>.
+                Para enviar uma perguntas,{" "}
+                <button onClick={handleCreateRoom}>faça seu login</button>.
               </span>
             )}
 
