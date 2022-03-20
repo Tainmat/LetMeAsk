@@ -1,12 +1,3 @@
-<h1 align="center">
-    <img alt="Letmeask" src=".github/cover.svg" />
-</h1>
-
-
-Aplicação desenvolvida no NLW 5
-
-Criar salas para acompanhar lives ou aulas online com o intuito de usuário realizar perguntas e o moderador da sala ter mais controle para realizar respostas.
-
 ![image](https://user-images.githubusercontent.com/63248706/159144385-f3b09d34-dade-4cb9-9be0-67c343bd11c9.png)
 
 ## 🧪 Tecnologias
@@ -22,8 +13,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
-$ git clone https://github.com/rocketseat-education/nlw-06-reactjs
-$ cd nlw-06-reactjs
+$ git clone https://github.com/Tainmat/LetMeAsk
+$ cd LetMeAsk
 ```
 
 Para iniciá-lo, siga os passos abaixo:
